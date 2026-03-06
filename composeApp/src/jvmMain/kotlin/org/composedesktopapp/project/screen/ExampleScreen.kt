@@ -1,4 +1,4 @@
-package org.screenshotapp.project.screen
+package org.composedesktopapp.project.screen
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.LinearOutSlowInEasing

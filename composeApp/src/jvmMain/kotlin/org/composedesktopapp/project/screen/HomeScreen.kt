@@ -1,4 +1,4 @@
-package org.screenshotapp.project.screen
+package org.composedesktopapp.project.screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -23,7 +23,7 @@ import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import kotlinx.coroutines.launch
-import org.screenshotapp.project.api.APIService
+import org.composedesktopapp.project.api.APIService
 import java.util.UUID
 
 class HomeScreen : Screen {
@@ -57,6 +57,13 @@ class HomeScreen : Screen {
                 }
                 //Open Another Window
                 SecondWindow()
+                Button(onClick = {
+                    navigator.push(
+                    DrawingApp()
+                    )
+                }){
+                    Text("Canvas")
+                }
 
             }
         }

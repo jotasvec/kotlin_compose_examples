@@ -1,4 +1,4 @@
-package org.screenshotapp.project.screen
+package org.composedesktopapp.project.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -36,11 +36,11 @@ import androidx.compose.ui.unit.sp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import org.screenshotapp.project.DarkSurface
-import org.screenshotapp.project.Purple40
-import org.screenshotapp.project.Purple80
-import org.screenshotapp.project.PurpleGrey40
-import org.screenshotapp.project.PurpleGrey80
+import org.composedesktopapp.project.DarkSurface
+import org.composedesktopapp.project.Purple40
+import org.composedesktopapp.project.Purple80
+import org.composedesktopapp.project.PurpleGrey40
+import org.composedesktopapp.project.PurpleGrey80
 
 class ProfileScreen(val username : String, val name: String, val lastName: String ) : Screen {
     @Composable

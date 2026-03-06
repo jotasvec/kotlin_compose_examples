@@ -1,4 +1,4 @@
-package org.screenshotapp.project
+package org.composedesktopapp.project
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

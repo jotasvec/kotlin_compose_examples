@@ -1,4 +1,4 @@
-package org.screenshotapp.project
+package org.composedesktopapp.project
 
 class Greeting {
     private val platform = getPlatform()

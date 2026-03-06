@@ -1,4 +1,4 @@
-package org.screenshotapp.project
+package org.composedesktopapp.project
 
 class JVMPlatform {
     val name: String = "Java ${System.getProperty("java.version")}"

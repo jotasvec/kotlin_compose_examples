@@ -1,4 +1,4 @@
-package org.screenshotapp.project
+package org.composedesktopapp.project
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
